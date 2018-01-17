@@ -8,41 +8,50 @@
 	<link href="https://fonts.googleapis.com/css?family=Mukta+Malar" rel="stylesheet">
 </head>
 <body>
-	<header class="top">
-		<div class="left"><img class="logo" src="img/my-logo-small.png" alt="logo"></div>
-		<div class="container-inline">
-			<div class="gray-text name"><h1>YUKO BERGER</h1></div>
-			<div class="gray-text title"><h2>Full Stack Developer</h2></div>			
+	<main class="box wrapper">
+		<header class="box header-container top-fixed border-bottom">
+			<div class="box logo-item">
+				<img class="logo" src="img/my-logo-small.png" alt="logo">
+			</div>
+			<div class="box title-item">
+				<div class="gray-text name"><h1>YUKO BERGER</h1></div>
+				<div class="gray-text title"><h2>Full Stack Developer</h2></div>
+			</div>
+		</header>
+		<div class="box top-image-container">
+			<img class="top-image" src="img/coffee-computer.jpeg" alt="coffee">
 		</div>
-		<hr class="horizontal-line">
-	</header>
-	<img class="top-image" src="img/coffee-computer.jpeg" height=450 alt="coffee">
-	<h2 class="gray-text">Projects</h2>
-	<br>
-	<p> Work completed in Udacity Full Stack Web Developer Course</p>
-	<br>
-
-	<section class="projects-container">		
-
-		<div class="description">
-			<img class="project-img" src="img/movies-popcorn.jpg" alt="movie-popcorn">
-			<h3>Movie Website</h3>
-			<br>
-			<p>https://github.com/udacity/movies-website</p>
-		</div>
-		<div class="description">
-			<img class="project-img" src="img/map.jpeg" alt="neighborhood-map">
-			<h3>Neighborhood Map</h3>
-			<br>
-			<p>https://github.com/udacity/neighborhood-map</p>
-		</div>
-		<div class="description">
-			<img class="project-img" src="img/analysis.jpeg" alt="log-analysis">
-			<h3>Log Analysis</h3>
-			<br>
-			<p>https://github.com/udacity/log-analysis</p>
-		</div>
-	</section>
-
+		<section class="box project-container">
+			<div class="box section-title">
+				<h2 class="gray-text">Projects</h2>
+			</div>
+			<div class="box section-description">
+			<p> Work completed in Udacity Full Stack Web Developer Course</p>
+			</div>
+			<div class="box project-list-container">
+				<section class="project-details">
+					<img class="project-img" src="img/movies-popcorn.jpg" alt="movie-popcorn">
+					<h3>Movie Website</h3>
+					<br>
+					<a href="https://github.com/udacity/movies-website" target="_blank">Link to GitHub</a>
+				</section>
+				<section class="project-details">
+					<img class="project-img" src="img/map.jpeg" alt="neighborhood-map">
+					<h3>Neighborhood Map</h3>
+					<br>
+					<a href="https://github.com/udacity/neighborhood-map" target="_blank">Link to GitHub</a>
+				</section>
+				<section class="project-details">
+					<img class="project-img" src="img/analysis.jpeg" alt="log-analysis">
+					<h3>Log Analysis</h3>
+					<br>
+					<a href="https://github.com/udacity/log-analysis" target="_blank">Link to GitHub</a>
+				</section>
+			</div>
+		</section>
+		<footer class="box footer-container border-top">
+			<p class="footer-item">Created by Yuko for Udacity Portfolio Project</p>
+		</footer>
+	</main>
 </body>
 </html>
